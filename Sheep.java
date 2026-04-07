@@ -26,6 +26,16 @@ public class Sheep implements Animal {
     public String getName() { 
         return name; 
         }
+    
+    public Integer getLegs() { 
+        return legs; 
+        }
+    public String getSound() { 
+        return sound; 
+        }
+    public String getFood() { 
+        return food; 
+        }
 
     @Override
     public Animal clone() { 

@@ -23,14 +23,23 @@ public class Horse implements Animal {
     public void setColor(String color) { 
         this.color = color; 
         }
-
     public String getColor() { 
         return color; 
         }
 
+    public Integer getLegs() { 
+        return legs; 
+        }
+    public String getSound() { 
+        return sound; 
+        }
+    public String getFood() { 
+        return food; 
+        }
+
     @Override
     public Animal clone() { 
-        return new Horse(this);
+        return new Horse(this); 
         }
 
     @Override

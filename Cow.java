@@ -20,8 +20,7 @@ public class Cow implements Animal {
     public void setSound(String sound) { 
         this.sound = sound; 
         }
-
-    public String getSound() {
+    public String getSound() { 
         return sound; 
         }
 
@@ -30,6 +29,10 @@ public class Cow implements Animal {
         }
     public String getFood() { 
         return food; 
+        }
+
+    public Integer getLegs() { 
+        return legs; 
         }
 
     @Override

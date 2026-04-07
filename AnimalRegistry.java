@@ -12,13 +12,12 @@ public class AnimalRegistry {
     public Animal createSheep() { 
         return sheepPrototype.clone(); 
         }
-
+        
     public Animal createCow() { 
         return cowPrototype.clone(); 
         }
 
-    public Animal createHorse() {
+    public Animal createHorse() { 
         return horsePrototype.clone(); 
         }
-        
 }
